@@ -1,7 +1,7 @@
 import time
 
 def consumer():
-    r = ''
+    r = 'hello'
     while True:
         n = yield r
         if not n:
